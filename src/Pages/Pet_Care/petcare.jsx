@@ -38,7 +38,7 @@ export const PetCare = (props) => {
         </div>
       </nav>
 
-            <div className='cards'>
+            <div className='cards testy'>
                 <h1 className= 'headerText'>Pet Blogs</h1>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
@@ -80,10 +80,10 @@ export const PetCare = (props) => {
             </div>
 
             <div className='cards'>
-            <h1>Diet for pets</h1>
+            <h1 className='headerTextBlack'>Diet for pets</h1>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
-                        <ul className='cards__items'>
+                        <ul className='cards__items '>
                             <CardItem
                                 src='images/img-9.jpg'
                                 text='Potty Training your rescue dog'
@@ -120,11 +120,11 @@ export const PetCare = (props) => {
                 </div>
             </div>
 
-            <div className='cards'>
-            <h1>Love for pets</h1>
+            <div className='cards testy'>
+            <h1 className='headerText'>Love for pets</h1>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
-                        <ul className='cards__items'>
+                        <ul className='cards__items demo'>
                             <CardItem
                                 src='images/img-9.jpg'
                                 text='Potty Training your rescue dog'

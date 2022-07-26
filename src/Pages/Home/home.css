@@ -46,6 +46,7 @@ nav {
     letter-spacing: 2px;
 }
 
+
 .flip-card {
     border-radius: 20px 0px 0px 20px;
     background-color: transparent;
@@ -162,7 +163,7 @@ a{
 }
 
 .scoms{
-    background-color: #bdbdbd;
+    background-color: #99ccff;
     border-radius: 0px 20px 20px 0px;
     display: grid;
     grid-template-rows: 1fr 10fr;
