@@ -5,7 +5,9 @@
     grid-template-rows: 0.1fr 1fr 1fr 1fr;
 }
 
-.navbarHome{
+
+
+.navbarPetcare{
     z-index: 10;
     background-color: black;
     display: grid;
@@ -41,6 +43,19 @@
     color: #9e9e9e;
 }
 
+.headerText{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size : 50px ; 
+}
+
+.headerTextBlack{
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size : 50px; 
+}
+
+
 .menuItem:hover {
     top: -3px;
     color: white;
@@ -53,6 +68,10 @@
     background: #fff;
     margin-left: -6%;
   }
+
+.testy{
+  background-image: url(../../Assets/trial.jpg);
+}
   
   h1 {
     margin: 2%;
@@ -73,7 +92,7 @@
 
     margin: 5px 0 5px;
   }
-  
+ 
   .cards__items {
     margin-bottom: 24px;
   }
@@ -147,11 +166,11 @@
   }
   
   .cards__item__text {
-    color: #252e48;
+    color: #99ccff;
     font-size: 18px;
     line-height: 24px;
   }
-  
+
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
       width: 84%;

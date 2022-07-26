@@ -12,34 +12,34 @@ import './petcare.css'
 export const PetCare = (props) => {
     return (
         <div className="main">
-            <nav className="navbarHome">
-                <div className="topLogo">
-                    <h1 className="pawshunger">Paws Hunger</h1>
-                </div>
-                <div className="menu">
-                    <a className="menuItem" href="/">
-                        HOME
-                    </a>
-                    <a className="menuItem" href="#">
-                        Pet Care
-                    </a>
-                    <a className="menuItem" href="#">
-                        MENU
-                    </a>
-                    <a className="menuItem" href="#">
-                        MENU
-                    </a>
-                    <a className="menuItem" href="#">
-                        FAQ
-                    </a>
-                    <a className="menuItem" href="#">
-                        CONTACT
-                    </a>
-                </div>
-            </nav>
+            <nav className="navbarPetcare">
+        <div className="topLogo">
+          <h1 className="pawshunger">Paws Hunger</h1>
+        </div>
+        <div className="menu">
+          <a className="menuItem" href="/">
+            HOME
+          </a>
+          <a className="menuItem" href="#">
+            TRACK
+          </a>
+          <a className="menuItem" href="/donations">
+            DONATIONS
+          </a>
+          <a className="menuItem" href="#">
+            VETS
+          </a>
+          <a className="menuItem" href="/petcare">
+            PETCARE
+          </a>
+          <a className="menuItem" href="/Comments">
+            COMMUNITY
+          </a>
+        </div>
+      </nav>
 
-            <div className='cards'>
-                <h1>Pet Blogs</h1>
+            <div className='cards testy'>
+                <h1 className= 'headerText'>Pet Blogs</h1>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
                         <ul className='cards__items'>
@@ -80,10 +80,10 @@ export const PetCare = (props) => {
             </div>
 
             <div className='cards'>
-            <h1>Diet for pets</h1>
+            <h1 className='headerTextBlack'>Diet for pets</h1>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
-                        <ul className='cards__items'>
+                        <ul className='cards__items '>
                             <CardItem
                                 src='images/img-9.jpg'
                                 text='Potty Training your rescue dog'
@@ -120,11 +120,11 @@ export const PetCare = (props) => {
                 </div>
             </div>
 
-            <div className='cards'>
-            <h1>Love for pets</h1>
+            <div className='cards testy'>
+            <h1 className='headerText'>Love for pets</h1>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
-                        <ul className='cards__items'>
+                        <ul className='cards__items demo'>
                             <CardItem
                                 src='images/img-9.jpg'
                                 text='Potty Training your rescue dog'
@@ -161,28 +161,28 @@ export const PetCare = (props) => {
                 </div>
             </div>
 
-            <div className="footerDivHome">
-                <footer className="footerHome">
+            <div className="footerDiv" style={{ 'height': '10vh' }}>
+                <footer className="footerTeams">
                     <IconContext.Provider value={{ size: "3em" }}>
-                        <div className="shareicons">
-                            <a className="socialIcons" href="#">
+                        <div className="shareiconsTeams">
+                            <a className="socialIconsTeams" href="https://m.facebook.com/">
                                 <FaFacebook className="facebook" />
                             </a>
-                            <a className="socialIcons" href="#">
+                            <a className="socialIcons" href="https://www.instagram.com//">
                                 <FaInstagram className="insta" />
                             </a>
-                            <a className="socialIcons" href="#">
+                            <a className="socialIcons" href="https://twitter.com/">
                                 <FaTwitter className="twitter" />
                             </a>
-                            <a className="socialIcons" href="#">
+                            <a className="socialIcons" href="https://www.linkedin.com/company/iete-">
                                 <FaLinkedin className="linkedin" />
                             </a>
-                            <a className="socialIcons" href="#">
+                            <a className="socialIcons" href="mailto: @gmail.com">
                                 <FaMailBulk />
                             </a>
                         </div>
                     </IconContext.Provider>
-                    <p className="footerText">company name© 2022 All rights reserved.</p>
+                    <p className="footerText">Paws Hunger© 2022 All rights reserved.</p>
                 </footer>
             </div>
 
