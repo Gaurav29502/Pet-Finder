@@ -9,6 +9,8 @@ import { FaInstagram } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaMailBulk } from 'react-icons/fa'
 import { IconContext } from "react-icons";
+import KommunicateChat from '../../chat';
+
 
 
 
@@ -23,7 +25,7 @@ export const HomePage = (props) => {
           <a className="menuItem" href="/">
             HOME
           </a>
-          <a className="menuItem" href="#">
+          <a className="menuItem" href="/track">
             TRACK
           </a>
           <a className="menuItem" href="/donations">
@@ -123,8 +125,10 @@ export const HomePage = (props) => {
             </IconContext.Provider>
             <p className="footerText">Paws Hunger© 2022 All rights reserved.</p>
           </footer>
+          <KommunicateChat/>
         </div>
       </div>
+
     </div>
   );
 };
