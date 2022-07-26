@@ -92,7 +92,7 @@
 
     margin: 5px 0 5px;
   }
-  
+ 
   .cards__items {
     margin-bottom: 24px;
   }
@@ -166,11 +166,11 @@
   }
   
   .cards__item__text {
-    color: white;
+    color: #99ccff;
     font-size: 18px;
     line-height: 24px;
   }
-  
+
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
       width: 84%;
