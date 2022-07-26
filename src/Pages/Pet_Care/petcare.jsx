@@ -7,7 +7,6 @@ import { FaInstagram } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaMailBulk } from 'react-icons/fa'
 import { IconContext } from "react-icons";
-import Slideshow from "./Slideshow";
 import './petcare.css'
 
 
