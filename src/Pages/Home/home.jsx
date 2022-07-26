@@ -24,7 +24,7 @@ export const HomePage = (props) => {
             HOME
           </a>
           <a className="menuItem" href="#">
-            MENU
+            Pet Care
           </a>
           <a className="menuItem" href="#">
             MENU
