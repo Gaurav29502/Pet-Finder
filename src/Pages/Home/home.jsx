@@ -8,7 +8,7 @@ import bruno from "../../Assets/testimonials/bruno.png";
 import Bumi from "../../Assets/testimonials/Bumi.png";
 import Kaya from "../../Assets/testimonials/Kaya.png";
 import Daisy from "../../Assets/testimonials/Daisy.png";
-import Dorris from  "../../Assets/testimonials/Dorris.png";
+import Dorris from "../../Assets/testimonials/Dorris.png";
 import Mia from "../../Assets/testimonials/Mia.png"
 import Lisa from "../../Assets/testimonials/Lisa.png";
 
@@ -46,7 +46,7 @@ export const HomePage = (props) => {
           <a className="menuItem" href="/petcare">
             PETCARE
           </a>
-          <a className="menuItem" href="/community">
+          <a className="menuItem" href="/Comments">
             COMMUNITY
           </a>
         </div>
@@ -138,16 +138,16 @@ export const HomePage = (props) => {
                 <a className="socialIcons" href="#">
                   <FaFacebook className="facebook" />
                 </a>
-                <a className="socialIcons"  href="#">
+                <a className="socialIcons" href="#">
                   <FaInstagram className="insta" />
                 </a>
-                <a className="socialIcons"  href="#">
+                <a className="socialIcons" href="#">
                   <FaTwitter className="twitter" />
                 </a>
                 <a className="socialIcons" href="#">
                   <FaLinkedin className="linkedin" />
                 </a>
-                <a className="socialIcons"  href="#">
+                <a className="socialIcons" href="#">
                   <FaMailBulk />
                 </a>
               </div>

@@ -50,10 +50,10 @@ export const Donations = (props) => {
                     <a className="menuItem" href="#">
                         VETS
                     </a>
-                    <a className="menuItem" href="#">
+                    <a className="menuItem" href="/petcare">
                         PETCARE
                     </a>
-                    <a className="menuItem" href="#">
+                    <a className="menuItem" href="/Comments">
                         COMMUNITY
                     </a>
                 </div>

@@ -32,7 +32,7 @@ export const PetCare = (props) => {
           <a className="menuItem" href="/petcare">
             PETCARE
           </a>
-          <a className="menuItem" href="/community">
+          <a className="menuItem" href="/Comments">
             COMMUNITY
           </a>
         </div>
@@ -161,28 +161,28 @@ export const PetCare = (props) => {
                 </div>
             </div>
 
-            <div className="footerDivHome">
-                <footer className="footerHome">
+            <div className="footerDiv" style={{ 'height': '10vh' }}>
+                <footer className="footerTeams">
                     <IconContext.Provider value={{ size: "3em" }}>
-                        <div className="shareicons">
-                            <a className="socialIcons" href="#">
+                        <div className="shareiconsTeams">
+                            <a className="socialIconsTeams" href="https://m.facebook.com/">
                                 <FaFacebook className="facebook" />
                             </a>
-                            <a className="socialIcons" href="#">
+                            <a className="socialIcons" href="https://www.instagram.com//">
                                 <FaInstagram className="insta" />
                             </a>
-                            <a className="socialIcons" href="#">
+                            <a className="socialIcons" href="https://twitter.com/">
                                 <FaTwitter className="twitter" />
                             </a>
-                            <a className="socialIcons" href="#">
+                            <a className="socialIcons" href="https://www.linkedin.com/company/iete-">
                                 <FaLinkedin className="linkedin" />
                             </a>
-                            <a className="socialIcons" href="#">
+                            <a className="socialIcons" href="mailto: @gmail.com">
                                 <FaMailBulk />
                             </a>
                         </div>
                     </IconContext.Provider>
-                    <p className="footerText">company name© 2022 All rights reserved.</p>
+                    <p className="footerText">Paws Hunger© 2022 All rights reserved.</p>
                 </footer>
             </div>
 
