@@ -13,33 +13,33 @@ export const PetCare = (props) => {
     return (
         <div className="main">
             <nav className="navbarHome">
-                <div className="topLogo">
-                    <h1 className="pawshunger">Paws Hunger</h1>
-                </div>
-                <div className="menu">
-                    <a className="menuItem" href="/">
-                        HOME
-                    </a>
-                    <a className="menuItem" href="#">
-                        Pet Care
-                    </a>
-                    <a className="menuItem" href="#">
-                        MENU
-                    </a>
-                    <a className="menuItem" href="#">
-                        MENU
-                    </a>
-                    <a className="menuItem" href="#">
-                        FAQ
-                    </a>
-                    <a className="menuItem" href="#">
-                        CONTACT
-                    </a>
-                </div>
-            </nav>
+        <div className="topLogo">
+          <h1 className="pawshunger">Paws Hunger</h1>
+        </div>
+        <div className="menu">
+          <a className="menuItem" href="/">
+            HOME
+          </a>
+          <a className="menuItem" href="#">
+            TRACK
+          </a>
+          <a className="menuItem" href="/donations">
+            DONATIONS
+          </a>
+          <a className="menuItem" href="#">
+            VETS
+          </a>
+          <a className="menuItem" href="/petcare">
+            PETCARE
+          </a>
+          <a className="menuItem" href="/community">
+            COMMUNITY
+          </a>
+        </div>
+      </nav>
 
             <div className='cards'>
-                <h1>Pet Blogs</h1>
+                <h1 className= 'headerText'>Pet Blogs</h1>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
                         <ul className='cards__items'>
