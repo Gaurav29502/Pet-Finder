@@ -97,9 +97,6 @@ export const HomePage = (props) => {
                 <div>
                   <img className="scomPhotos" src={Lisa} />
                 </div>
-                <div>
-                  <img className="scomPhotos" src={Mia} />
-                </div>
 
               </Carousel>
             </div>
