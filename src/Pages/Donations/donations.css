@@ -1,0 +1,256 @@
+.donations{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    overflow: hidden;
+}
+
+nav {
+	position:sticky;
+	top:0;
+}
+
+.navbarHome{
+    background-color: white;
+    z-index: 10;
+    display: grid;
+    grid-template-columns: 1.2fr 10fr;
+    place-items: center;
+}
+
+.topLogo{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+
+.phLogoNav{
+    height: 80%;
+    width: 50%;
+}
+
+.donationsDiv{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 1.5fr 15fr;
+}
+
+.footerDivDonations {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.centerDivWrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.centerDivDonations{
+    background-color: white;
+    height:97%;
+    width: 60%;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.donationsLeft{
+    display: grid;
+    place-items: center;
+}
+
+.leftWrapper{
+    height: 80%;
+    width: 80%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.productCategory{
+    display: grid;
+    font-family: 'Gilroy';
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.donateButtonDiv{
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.donateButton{
+    font-family: 'Gilroy';
+    border: transparent;
+    border-radius: 50px;
+    background-color: #99ccff;
+    height: 50%;
+    width: 80%;
+    font-size: 150%;
+}
+
+.donateButton:hover{
+    background-color: #53a7fb;
+}
+
+.labelDiv{
+    display: grid;
+    place-items: center;
+}
+
+.productName{
+    display: grid;
+    font-family: 'Gilroy';
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+.productQuantity{
+    display: grid;
+    font-family: 'Gilroy';
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+.category{
+    text-align: center;
+    font-family: 'Gilroy';
+    font-size: 100%;
+}
+
+.name{
+    text-align: center;
+    font-family: 'Gilroy';
+    font-size: 100%;
+}
+
+.quantity{
+    font-family: 'Gilroy';
+    font-size: 100%;
+    width: 30%;
+    height: 45%;
+}
+
+.invisible{
+    display: none;
+}
+
+.tyPage{
+    background-color: white;
+    height:97%;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.tyRight{
+    height: 100%;
+    width: 100%;
+    border-left: 1px solid #c8c8c8;
+    
+}
+
+.donationsRight{
+    border-left: 1px solid #c8c8c8;
+    display: grid;
+    grid-template-rows: 2fr 8fr 1fr;
+}
+
+.upiHeader{
+    display: grid;
+    place-items: center;
+}
+
+.upiHeaderText{
+    font-family: 'Gilroy';
+    font-weight: lighter;
+}
+
+.upiCode{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.qrCode{
+    height: 100%;
+    width: 50%;
+}
+
+.scrollingDiv{
+    margin-top: 1%;
+    height: 100%;
+    width: 100%;
+    font-size: 120%;
+}
+
+.footerDonations{
+    width: 100%;
+    height: 60%;
+}
+
+.shareiconsDonations {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.socialIconsDonations {
+    margin: 1%;
+    height: 40%;
+}
+
+.footerText {
+    text-align: center;
+    font-size: 75%;
+    color: white;
+}
+
+.header1{
+    font-family: 'Gilroy';
+    color: white;
+}
+
+.footerDiv {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.footerTeams {
+    width: 100%;
+    height: 60%;
+}
+
+.shareiconsTeams {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.socialIconsTeams {
+    margin: 1%;
+    height: 40%;
+}
+
+.footerText {
+    text-align: center;
+    font-size: 75%;
+    color: white;
+}

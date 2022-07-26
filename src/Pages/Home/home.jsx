@@ -24,19 +24,19 @@ export const HomePage = (props) => {
             HOME
           </a>
           <a className="menuItem" href="#">
-            MENU
+            TRACK
+          </a>
+          <a className="menuItem" href="/donations">
+            DONATIONS
           </a>
           <a className="menuItem" href="#">
-            MENU
+            VETS
           </a>
           <a className="menuItem" href="#">
-            MENU
+            PETCARE
           </a>
           <a className="menuItem" href="#">
-            FAQ
-          </a>
-          <a className="menuItem" href="#">
-            CONTACT
+            COMMUNITY
           </a>
         </div>
       </nav>
@@ -121,7 +121,7 @@ export const HomePage = (props) => {
                 </a>
               </div>
             </IconContext.Provider>
-            <p className="footerText">company name© 2022 All rights reserved.</p>
+            <p className="footerText">Paws Hunger© 2022 All rights reserved.</p>
           </footer>
         </div>
       </div>
