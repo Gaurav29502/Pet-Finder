@@ -6,6 +6,20 @@
     overflow-x: hidden;
 }
 
+.navbarHome{
+    width: 100%;
+    z-index: 10;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    place-items: center;
+}
+
+nav {
+	position:fixed;
+	top:0;
+   
+}
 ::-webkit-scrollbar {
     width: 0;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
@@ -15,20 +29,7 @@
     background: #FF0000;
 }
 
-nav {
-	position:sticky;
-	top:0;
-   
-}
 
-.navbarHome{
-    z-index: 10;
-    background-color: white;
-    display: grid;
-    grid-template-columns: 1.2fr 10fr;
-    place-items: center;
-    width:100%;
-}
 
 .topLogo{
     height: 100%;

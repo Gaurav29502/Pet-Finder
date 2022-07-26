@@ -12,7 +12,7 @@ import './petcare.css'
 export const PetCare = (props) => {
     return (
         <div className="main">
-            <nav className="navbarHome">
+            <nav className="navbarPetcare">
         <div className="topLogo">
           <h1 className="pawshunger">Paws Hunger</h1>
         </div>
