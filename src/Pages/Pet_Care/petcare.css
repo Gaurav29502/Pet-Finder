@@ -17,6 +17,10 @@
     display: flex;
 }
 
+.slideshow{
+    width:100%
+}
+
 .pawshunger{
     color: white;
     font-size: 100%;

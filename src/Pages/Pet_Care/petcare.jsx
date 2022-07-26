@@ -7,7 +7,11 @@ import { FaInstagram } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaMailBulk } from 'react-icons/fa'
 import { IconContext } from "react-icons";
+import Slideshow from "./Slideshow";
 import './petcare.css'
+
+
+
 
 export const PetCare = (props) => {
     return (
@@ -20,25 +24,30 @@ export const PetCare = (props) => {
                     <a className="menuItem" href="/">
                         HOME
                     </a>
-                    <a className="menuItem" href="#">
-                        Pet Care
+                    <a className="menuItem" href="home">
+                        TRACK
                     </a>
-                    <a className="menuItem" href="#">
-                        MENU
+                    <a className="menuItem" href="/donations">
+                        DONATIONS
                     </a>
-                    <a className="menuItem" href="#">
-                        MENU
+                    <a className="menuItem" href="/home">
+                        VETS
                     </a>
-                    <a className="menuItem" href="#">
-                        FAQ
+                    <a className="menuItem" href="/petcare">
+                        PETCARE
                     </a>
-                    <a className="menuItem" href="#">
-                        CONTACT
+                    <a className="menuItem" href="/home">
+                        COMMUNITY
                     </a>
                 </div>
             </nav>
 
+
+
+
+
             <div className='cards'>
+
                 <h1>Pet Blogs</h1>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
@@ -55,7 +64,7 @@ export const PetCare = (props) => {
                                 label='Most viewed'
                                 path='https://globalnews.ca/news/8949419/kelowna-dog-rescue-selling-blueberry-bushes-in-fundraiser/'
                             />
-        
+
                             <CardItem
                                 src='images/img-3.jpg'
                                 text='Maxi’s Owner Passed Away—Can You Love and Comfort Her?'
@@ -80,7 +89,7 @@ export const PetCare = (props) => {
             </div>
 
             <div className='cards'>
-            <h1>Diet for pets</h1>
+                <h1>Diet for pets</h1>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
                         <ul className='cards__items'>
@@ -96,7 +105,7 @@ export const PetCare = (props) => {
                                 label='Most viewed'
                                 path='https://globalnews.ca/news/8949419/kelowna-dog-rescue-selling-blueberry-bushes-in-fundraiser/'
                             />
-        
+
                             <CardItem
                                 src='images/img-3.jpg'
                                 text='Maxi’s Owner Passed Away—Can You Love and Comfort Her?'
@@ -121,7 +130,7 @@ export const PetCare = (props) => {
             </div>
 
             <div className='cards'>
-            <h1>Love for pets</h1>
+                <h1>Love for pets</h1>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
                         <ul className='cards__items'>
@@ -137,7 +146,7 @@ export const PetCare = (props) => {
                                 label='Most viewed'
                                 path='https://globalnews.ca/news/8949419/kelowna-dog-rescue-selling-blueberry-bushes-in-fundraiser/'
                             />
-        
+
                             <CardItem
                                 src='images/img-3.jpg'
                                 text='Maxi’s Owner Passed Away—Can You Love and Comfort Her?'
