@@ -1,5 +1,5 @@
 import './App.css';
-import { Component } from 'react'
+import React, { Component } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { HomePage } from './Pages/Home/home.jsx'
 import { Donations } from './Pages/Donations/donations.jsx'
@@ -24,7 +24,7 @@ class App extends Component {
             <Route path='/petcare' element={<PetCare />} />
           </Routes>
         </Router>
-      </div>
+      </div> 
     );
   }
 
