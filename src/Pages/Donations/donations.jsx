@@ -17,13 +17,15 @@ export const Donations = (props) => {
 
     const [product, setProduct] = useState('')
     const [quantity, setQuantity] = useState('')
+    const [name, setName] = useState('')
     const [centerDivDonations, setCenterDivDonations] = useState('centerDivDonations')
     const [tyPage, setTyPage] = useState('invisible')
 
     const handleClick = (e) => {
         console.log(quantity)
         console.log(product)
-        axios.get(`https://ap-south-1.aws.data.mongodb-api.com/app/cfg2022-zkswz/endpoint/addproduct?ID="62deee8151f778802aeda822"&product=${product}&quantity=${quantity}`)
+        console.log(name)
+        axios.get(`https://ap-south-1.aws.data.mongodb-api.com/app/cfg2022-zkswz/endpoint/addproduct?ID="62deee8151f778802aeda822"&category=${product}&quantity=${quantity}&name=${name}`)
 
         setCenterDivDonations('invisible')
         setTyPage('tyPage')
@@ -75,23 +77,28 @@ export const Donations = (props) => {
                                         setProduct(e.target.value);
                                     }} required />
                                     <datalist id="categories">
-                                        <option value="oil diffusers" />
-                                        <option value="books" />
-                                        <option value="yoga mats" />
-                                        <option value="Candles" />
+                                        <option value="Collars" />
+                                        <option value="Toys" />
+                                        <option value="Cat Trees" />
+                                        <option value="Pet Food" />
+                                        <option value="Pet Houses" />
+                                        <option value="Dog Beds" />
+                                        <option value="Hygienic Products" />
+
+
                                     </datalist>
                                 </div>
                                 <div className="productName">
                                     <div className="labelDiv">
                                         <label>Product Name</label>
                                     </div>
-                                    <input className="name" placeholder="Please enter the product name"></input>
+                                    <input value={name} onChange={(e) => { setName(e.target.value); }} className="name" placeholder="Please enter the product name"></input>
                                 </div>
                                 <div className="productQuantity">
                                     <div className="labelDiv">
                                         <label>Quantity</label>
                                     </div>
-                                    <input value={quantity} onChange={(e) => {setQuantity(e.target.value);}} className="name" placeholder="Please enter the product quantity"></input>
+                                    <input value={quantity} onChange={(e) => { setQuantity(e.target.value); }} className="name" placeholder="Please enter the product quantity" required></input>
                                 </div>
                                 <div className="donateButtonDiv">
                                     <button onClick={handleClick} className="donateButton">Donate Now!</button>

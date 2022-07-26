@@ -1,0 +1,268 @@
+.mainTrack{
+    display: grid;
+    grid-template-rows: 1fr 3fr 13fr;
+    height: 300vh;
+    width: 100vw;
+}
+
+nav {
+	position:sticky;
+	top:0;
+}
+
+.navbarTrack{
+    height: 70%;
+    background-color: #53a7fb;
+    z-index: 10;
+    display: grid;
+    grid-template-columns: 1.2fr 10fr;
+    place-items: center;
+}
+
+.menuItemTrack{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 120%;
+    margin: 10%;
+    position: relative;
+    top: 0;
+    transition: top ease 0.1s;
+    color: white ;
+}
+
+.menuItemTrack:hover {
+    top: -3px;
+    color: black;
+    font-weight: bolder;
+}
+
+
+.topLogo{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+
+.phLogoNav{
+    height: 80%;
+    width: 50%;
+}
+
+.upload{
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.uploadWrapper{
+    display: grid;
+    grid-template-rows: 2fr 1.5fr 1fr;
+    height: 100%;
+    width: 45%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    border-radius: 30px;
+}
+
+.petDescriptionInput{
+    display: grid;
+    place-items: center;
+    grid-template-rows: 1fr 2fr;
+    height: 100%;
+    width: 100%;
+}
+
+.descLabel{
+    font-family: 'Gilroy';
+    font-size: 200%;
+}
+
+.descInput{
+    font-family: 'Gilroy';
+    font-size: 150%;
+    height: 80%;
+    width: 80%;
+}
+
+.middleUpload{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.dateBox{
+    font-family: 'Gilroy';
+    font-size: 150%;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+}
+
+.dateInput{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.uploadPhoto{
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.photoBox{
+    display: none;
+    height: 100%;
+    width: 50%;
+}
+
+.selectButton{
+    border: 1px solid;
+    background-color: transparent;
+    font-family: 'Gilroy';
+    font-size: 150%;
+    height: 55%;
+    width: 50%;
+    text-align: center;
+}
+
+.uploadProfile{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.uploadButton{
+    font-family: 'Gilroy';
+    border: transparent;
+    border-radius: 50px;
+    background-color: #99ccff;
+    height: 50%;
+    width: 80%;
+    font-size: 150%;
+}
+
+.uploadButton:hover{
+    background-color: #53a7fb;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.contentWrapper{
+    background-color: #99ccff;
+    height: 95%;
+    width: 95%;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.profileCardWrapper{
+    margin-top: 2%;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.profileCard{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: rgba(145, 145, 145, 0.4) 0px 30px 90px;
+    height: 87%;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr ;
+}
+
+.profilePhotoDiv{
+    border-right: 1px solid #a8a8a8;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.pfp{
+    border-radius: 20px 0px 0px 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.descriptionDiv{
+    border-right: 1px solid #a8a8a8;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 4fr 1.2fr;
+    place-items: center;
+}
+
+.description{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.desc{
+    height: 10%;
+    width: 10%;
+}
+
+.petDescription{
+    margin-left: 1%;
+    margin-right: 1%;
+    font-family: 'Gilroy';
+    font-size: 130%;
+    text-align: center;
+}
+
+
+.date{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.dateText{
+    font-family: 'Gilroy';
+    font-size: 120%;
+}
+
+.locationDiv{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    height: 100%;
+    width: 100%;
+}
+
+.locationHeaderDiv{
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.locHeaderText{
+    font-family: 'Gilroy';
+    font-weight: lighter;
+    font-size: 120%;
+}
+
+.locations{
+    height: 100%;
+    width: 100%;
+}
