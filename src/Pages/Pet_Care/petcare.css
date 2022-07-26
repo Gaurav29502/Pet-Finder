@@ -43,9 +43,16 @@
 
 .headerText{
   font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size : 50px ; 
+}
+
+.headerTextBlack{
+  font-family: 'Raleway', sans-serif;
   color: black;
   font-size : 50px; 
 }
+
 
 .menuItem:hover {
     top: -3px;
@@ -59,6 +66,10 @@
     background: #fff;
     margin-left: -6%;
   }
+
+.testy{
+  background-image: url(../../Assets/trial.jpg);
+}
   
   h1 {
     margin: 2%;
@@ -153,7 +164,7 @@
   }
   
   .cards__item__text {
-    color: #252e48;
+    color: white;
     font-size: 18px;
     line-height: 24px;
   }

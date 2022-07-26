@@ -119,7 +119,7 @@ export const HomePage = (props) => {
         <div className="centerDivLast">
           <div className="leftSide">
             <div className="sponsorContent">
-              <h1 className="sponsorHeaderText">Insert Header Here</h1>
+              <h1 className="sponsorHeaderText">Vets in your area</h1>
               <p className="sponsorText">
                 Insert Text Here
               </p>
