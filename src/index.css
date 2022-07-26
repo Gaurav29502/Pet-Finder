@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy'), url('./Fonts/Gilroy-ExtraBold.ttf') format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy'), url('./Fonts/Gilroy-Light.otf') format("opentype");
+  font-weight: lighter;
+}
