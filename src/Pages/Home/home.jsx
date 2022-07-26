@@ -8,7 +8,7 @@ import bruno from "../../Assets/testimonials/bruno.png";
 import Bumi from "../../Assets/testimonials/Bumi.png";
 import Kaya from "../../Assets/testimonials/Kaya.png";
 import Daisy from "../../Assets/testimonials/Daisy.png";
-import Dorris from "../../Assets/testimonials/Dorris.png";
+import Dorris from  "../../Assets/testimonials/Dorris.png";
 import Mia from "../../Assets/testimonials/Mia.png"
 import Lisa from "../../Assets/testimonials/Lisa.png";
 
@@ -20,6 +20,21 @@ import { FaInstagram } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaMailBulk } from 'react-icons/fa'
 import { IconContext } from "react-icons";
+
+// import { useEffect} from "react";
+
+// const getData = async() =>{
+//   try{
+//     const res =await fetch('https://sheet.best/api/sheets/3b60efe2-918f-44fa-8349-301444645bab')
+//     const data = await res.json()
+//     console.log(data);
+//   } catch(error){
+//     console.log(error)
+//   }
+// }
+// useEffect(() => {
+//   getData();
+// },[]);
 
 
 
@@ -46,7 +61,7 @@ export const HomePage = (props) => {
           <a className="menuItem" href="/petcare">
             PETCARE
           </a>
-          <a className="menuItem" href="/Comments">
+          <a className="menuItem" href="/community">
             COMMUNITY
           </a>
         </div>
@@ -119,7 +134,7 @@ export const HomePage = (props) => {
         <div className="centerDivLast">
           <div className="leftSide">
             <div className="sponsorContent">
-              <h1 className="sponsorHeaderText">Vets in your area</h1>
+              <h1 className="sponsorHeaderText">Events near you</h1>
               <p className="sponsorText">
                 Insert Text Here
               </p>
@@ -138,16 +153,16 @@ export const HomePage = (props) => {
                 <a className="socialIcons" href="#">
                   <FaFacebook className="facebook" />
                 </a>
-                <a className="socialIcons" href="#">
+                <a className="socialIcons"  href="#">
                   <FaInstagram className="insta" />
                 </a>
-                <a className="socialIcons" href="#">
+                <a className="socialIcons"  href="#">
                   <FaTwitter className="twitter" />
                 </a>
                 <a className="socialIcons" href="#">
                   <FaLinkedin className="linkedin" />
                 </a>
-                <a className="socialIcons" href="#">
+                <a className="socialIcons"  href="#">
                   <FaMailBulk />
                 </a>
               </div>
