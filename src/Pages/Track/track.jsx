@@ -123,6 +123,58 @@ export const Track = (props) => {
             </div>
             <div className="content">
                 <div className="contentWrapper">
+                <div className="profileCardWrapper">
+                                <div className="profileCard">
+                                    <div className="profilePhotoDiv">
+                                        <img className="pfp" src={dog}></img>
+                                    </div>
+                                    <div className="descriptionDiv">
+                                        <div className="description">
+                                            <p className="petDescription">dds</p>
+                                        </div>
+                                        <div className="date">
+                                            <h1 className="dateText">sdds</h1>
+                                        </div>
+                                    </div>
+                                    <div className="locationDiv">
+                                        <div className="locationHeaderDiv">
+                                            <h1 className="locHeaderText">Possible Locations</h1>
+                                        </div>
+                                        <div className="locations">
+                                    
+                                            <ul>
+                                               <li></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="profileCardWrapper">
+                                <div className="profileCard">
+                                    <div className="profilePhotoDiv">
+                                        <img className="pfp" src={dog}></img>
+                                    </div>
+                                    <div className="descriptionDiv">
+                                        <div className="description">
+                                            <p className="petDescription">dds</p>
+                                        </div>
+                                        <div className="date">
+                                            <h1 className="dateText">sdds</h1>
+                                        </div>
+                                    </div>
+                                    <div className="locationDiv">
+                                        <div className="locationHeaderDiv">
+                                            <h1 className="locHeaderText">Possible Locations</h1>
+                                        </div>
+                                        <div className="locations">
+                                    
+                                            <ul>
+                                               <li></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                     {profile.map((e, key) => {
                         return (
                             <div className="profileCardWrapper">
