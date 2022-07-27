@@ -3,7 +3,11 @@
     width: 100vw;
     display: grid;
     grid-template-rows: 0.1fr 1fr 1fr 1fr;
-    overflow-x: hidden;
+}
+
+nav {
+	position:sticky;
+	top:0;
 }
 
 .navbarHome{
@@ -15,11 +19,20 @@
     place-items: center;
 }
 
+/* .navbarHome{
+    width: 100%;
+    z-index: 10;
+    background-color: #99ccff;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    place-items: center;
+}
+
 nav {
 	position:fixed;
 	top:0;
    
-}
+} */
 ::-webkit-scrollbar {
     width: 0;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
@@ -105,12 +118,12 @@ nav {
 a{
     text-decoration: none;
     background-color: transparent;
-    color: white;
+    color: black;
 }
 
 .menuItem:hover {
     top: -3px;
-    color: #9e9e9e;
+    color: white;
     font-weight: bolder;
 }
 
@@ -125,7 +138,7 @@ a{
     background-image: url(../../Assets/trial.jpg);
     display: grid;
     place-items: center;
-    height: 17vh;
+    height: 7vh;
     margin-top: 0%;
     margin-bottom: 10px;
 }
@@ -444,6 +457,7 @@ video {
 }
 
 .carousel img {
+    border-radius: 30px;
     width:48%;
     display: inline-block;
     pointer-events: none

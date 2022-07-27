@@ -40,24 +40,21 @@ export const Donations = (props) => {
                     <img className="phLogoNav" src={logo}></img>
                 </div>
                 <div className="menu">
-                    <a className="menuItem" href="/">
-                        HOME
-                    </a>
-                    <a className="menuItem" href="#">
-                        TRACK
-                    </a>
-                    <a className="menuItem" href="/donations">
-                        DONATIONS
-                    </a>
-                    <a className="menuItem" href="#">
-                        VETS
-                    </a>
-                    <a className="menuItem" href="/petcare">
-                        PETCARE
-                    </a>
-                    <a className="menuItem" href="/Comments">
-                        COMMUNITY
-                    </a>
+                <a className="menuItem" href="/">
+            HOME
+          </a>
+          <a className="menuItem" href="/track">
+            TRACK
+          </a>
+          <a className="menuItem" href="/donations">
+            DONATIONS
+          </a>
+          <a className="menuItem" href="/petcare">
+            PETCARE
+          </a>
+          <a className="menuItem" href="/community">
+            COMMUNITY
+          </a>
                 </div>
             </nav>
             <div className="donationsDiv">

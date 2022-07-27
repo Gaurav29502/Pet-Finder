@@ -1,22 +1,22 @@
 .mainTrack{
     display: grid;
-    grid-template-rows: 1fr 3fr 13fr;
-    height: 300vh;
+    grid-template-rows: 1fr 5fr 10fr 1fr;
+    height: 200vh;
     width: 100vw;
+    overflow: hidden;
 }
-
-nav {
-	position:sticky;
-	top:0;
-}
-
 .navbarTrack{
-    height: 70%;
+    height: 100%;
     background-color: #53a7fb;
     z-index: 10;
     display: grid;
     grid-template-columns: 1.2fr 10fr;
     place-items: center;
+}
+
+nav {
+    position:sticky;
+	top:0;
 }
 
 .menuItemTrack{
@@ -60,8 +60,8 @@ nav {
 .uploadWrapper{
     display: grid;
     grid-template-rows: 2fr 1.5fr 1fr;
-    height: 100%;
-    width: 45%;
+    height: 90%;
+    width: 40%;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
     border-radius: 30px;
 }
@@ -155,16 +155,19 @@ nav {
 .content{
     height: 100%;
     width: 100%;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .contentWrapper{
+    overflow: scroll;
     background-color: #99ccff;
-    height: 95%;
+    height: 98%;
     width: 95%;
     border-radius: 20px;
     display: grid;
+    place-items: center;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 

@@ -92,9 +92,6 @@ export const Comments = ({ commentsUrl, currentUserId }) => {
                 </div>
             </nav>
             <div className="comments" style={{ 'height': '78vh' }}>
-                <div className="introText1">
-                    <h3 className="comments-title">Forum</h3>
-                </div>
                 <div className="comment-form-title">Write comment</div>
                 <CommentForm submitLabel="Submit" handleSubmit={addComment} />
                 <div className="comments-container">

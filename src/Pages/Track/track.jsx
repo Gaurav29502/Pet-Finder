@@ -79,24 +79,21 @@ export const Track = (props) => {
                     <img className="phLogoNav" src={logo}></img>
                 </div>
                 <div className="menu">
-                    <a className="menuItemTrack" href="/">
-                        HOME
-                    </a>
-                    <a className="menuItemTrack" href="#">
-                        TRACK
-                    </a>
-                    <a className="menuItemTrack" href="/donations">
-                        DONATIONS
-                    </a>
-                    <a className="menuItemTrack" href="#">
-                        VETS
-                    </a>
-                    <a className="menuItemTrack" href="#">
-                        PETCARE
-                    </a>
-                    <a className="menuItemTrack" href="#">
-                        COMMUNITY
-                    </a>
+                <a className="menuItem" href="/">
+            HOME
+          </a>
+          <a className="menuItem" href="/track">
+            TRACK
+          </a>
+          <a className="menuItem" href="/donations">
+            DONATIONS
+          </a>
+          <a className="menuItem" href="/petcare">
+            PETCARE
+          </a>
+          <a className="menuItem" href="/community">
+            COMMUNITY
+          </a>
                 </div>
             </nav>
             <div className="upload">
@@ -159,6 +156,30 @@ export const Track = (props) => {
                         )
                     })}
                 </div>
+            </div>
+            <div className="footerDiv">
+                <footer className="footerTeams">
+                    <IconContext.Provider value={{ size: "3em" }}>
+                        <div className="shareiconsTeams">
+                            <a className="socialIconsTeams" href="https://m.facebook.com/">
+                                <FaFacebook className="facebook" />
+                            </a>
+                            <a className="socialIcons" href="https://www.instagram.com//">
+                                <FaInstagram className="insta" />
+                            </a>
+                            <a className="socialIcons" href="https://twitter.com/">
+                                <FaTwitter className="twitter" />
+                            </a>
+                            <a className="socialIcons" href="https://www.linkedin.com/company/iete-">
+                                <FaLinkedin className="linkedin" />
+                            </a>
+                            <a className="socialIcons" href="mailto: @gmail.com">
+                                <FaMailBulk />
+                            </a>
+                        </div>
+                    </IconContext.Provider>
+                    <p className="footerText">Paws Hunger© 2022 All rights reserved.</p>
+                </footer>
             </div>
         </div>
     )
