@@ -80,13 +80,10 @@ export const Comments = ({ commentsUrl, currentUserId }) => {
                     <a className="menuItem" href="/donations">
                         DONATIONS
                     </a>
-                    <a className="menuItem" href="#">
-                        VETS
-                    </a>
                     <a className="menuItem" href="/petcare">
                         PETCARE
                     </a>
-                    <a className="menuItem" href="/Comments">
+                    <a className="menuItem" href="/community">
                         COMMUNITY
                     </a>
                 </div>

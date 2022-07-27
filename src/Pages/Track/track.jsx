@@ -139,6 +139,7 @@ export const Track = (props) => {
                                             <h1 className="locHeaderText">Possible Locations</h1>
                                         </div>
                                         <div className="locations">
+                                    
                                             <ul>
                                                 <li>Bandra F, MMK College, Mumbai, MH, India</li>
                                                 <li>Bandra F, R D National College Of Arts & Commerce, Mumbai, MH, India</li>
