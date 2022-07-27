@@ -3,14 +3,12 @@ import { useState, useEffect } from "react";
 import logo from "../../Assets/logo.png";
 import dog from '../../Assets/dog.jpg';
 import { useRef } from "react";
-import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 import { FaTwitter } from 'react-icons/fa'
 import { FaFacebook } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaMailBulk } from 'react-icons/fa'
 import { IconContext } from "react-icons";
-import { Wrapper } from "@googlemaps/react-wrapper";
 import axios from "axios";
 
 
