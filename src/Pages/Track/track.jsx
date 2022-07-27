@@ -2,6 +2,8 @@ import "./track.css";
 import { useState, useEffect } from "react";
 import logo from "../../Assets/logo.png";
 import dog from '../../Assets/dog.jpg';
+import cat from '../../Assets/cat.jpg';
+import doggy from '../../Assets/doggy.jfif';
 import { useRef } from "react";
 import { FaTwitter } from 'react-icons/fa'
 import { FaFacebook } from 'react-icons/fa'
@@ -126,14 +128,14 @@ export const Track = (props) => {
                 <div className="profileCardWrapper">
                                 <div className="profileCard">
                                     <div className="profilePhotoDiv">
-                                        <img className="pfp" src={dog}></img>
+                                        <img className="pfp" src={cat}></img>
                                     </div>
                                     <div className="descriptionDiv">
                                         <div className="description">
-                                            <p className="petDescription">dds</p>
+                                            <p className="petDescription">Harvey is a one of the really hyper and energetic ones. She loves playing with you and knows a few tricks herself. Fetch and run are the two commands she knows how to respond to. You would have one hell of a time playing with her!</p>
                                         </div>
                                         <div className="date">
-                                            <h1 className="dateText">sdds</h1>
+                                            <h1 className="dateText">2022-6-12</h1>
                                         </div>
                                     </div>
                                     <div className="locationDiv">
@@ -143,7 +145,12 @@ export const Track = (props) => {
                                         <div className="locations">
                                     
                                             <ul>
-                                               <li></li>
+                                               <li>Dindoshi, Mumbai, MH, India</li>
+                                               <li>Yashodham, Mumbai, MH, India</li>
+                                               <li>Gokuldham, Mumbai, MH, India</li>
+                                               <li>Goregaon, Mumbai, MH, India</li>
+                                               <li>Suchidham, Mumbai, MH, India</li>
+                                               <li>Oberoi, Mumbai, MH, India</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -152,14 +159,14 @@ export const Track = (props) => {
                             <div className="profileCardWrapper">
                                 <div className="profileCard">
                                     <div className="profilePhotoDiv">
-                                        <img className="pfp" src={dog}></img>
+                                        <img className="pfp" src={doggy}></img>
                                     </div>
                                     <div className="descriptionDiv">
                                         <div className="description">
-                                            <p className="petDescription">dds</p>
+                                            <p className="petDescription">Beau is the most beautiful dog I have ever seen. Her eyes are a beautiful shade of brown and her intelligence is shocking to say the least. Despite being on the roads, she is one of the most well trained dogs I have seen and would love for her to find an amazing home.</p>
                                         </div>
                                         <div className="date">
-                                            <h1 className="dateText">sdds</h1>
+                                            <h1 className="dateText">2022-05-21</h1>
                                         </div>
                                     </div>
                                     <div className="locationDiv">
@@ -169,7 +176,12 @@ export const Track = (props) => {
                                         <div className="locations">
                                     
                                             <ul>
-                                               <li></li>
+                                                <li>Dindoshi, Mumbai, MH, India</li>
+                                               <li>Yashodham, Mumbai, MH, India</li>
+                                               <li>Gokuldham, Mumbai, MH, India</li>
+                                               <li>Goregaon, Mumbai, MH, India</li>
+                                               <li>Suchidham, Mumbai, MH, India</li>
+                                               <li>Oberoi, Mumbai, MH, India</li>
                                             </ul>
                                         </div>
                                     </div>
