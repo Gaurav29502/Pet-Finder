@@ -146,7 +146,7 @@ export const HomePage = (props) => {
         <div className="centerDivLast">
           <div className="leftSide">
             <div className="sponsorContent">
-              <h1 className="sponsorHeaderText">Vets near you</h1>
+              <h1 className="sponsorHeaderText"></h1>
             </div>
           </div>
           <div className="rightSide">
