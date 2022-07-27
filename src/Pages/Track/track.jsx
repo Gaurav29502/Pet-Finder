@@ -143,6 +143,7 @@ export const Track = (props) => {
                                             <h1 className="locHeaderText">Possible Locations</h1>
                                         </div>
                                         <div className="locations">
+                                    
                                             <ul>
                                                 {e.location.map((a) => {
                                                     return (

@@ -13,7 +13,7 @@ nav {
 .navbarHome{
     width: 100%;
     z-index: 10;
-    background-color: black;
+    background-color: whitesmoke;
     display: grid;
     grid-template-columns: 1fr 10fr;
     place-items: center;
@@ -66,7 +66,7 @@ nav {
 
 .flip-card {
     border-radius: 20px 0px 0px 20px;
-    background-color: transparent;
+    background-color: whitesmoke;
     width: 100%;
     height: 100%;
     border: 1px solid #f1f1f1;
@@ -103,7 +103,7 @@ nav {
   .flip-card-back {
     display: grid;
     place-items: center;
-    color: white;
+    color: #08322896;
     transform: rotateY(180deg);
   }
 
@@ -128,7 +128,7 @@ a{
 }
 
 .introText{
-    background-image: url(../../Assets/trial.jpg);
+    background-color: #CCE6FF;
     display: grid;
     place-items: center;
     height: 100%;
@@ -144,14 +144,15 @@ a{
 }
 
 .centerDivText{
-    background-color: black;
+    background-color: white;
     /* margin-top: -13%; */
     height:75%;
     width: 80%;
     display: grid;
     grid-template-columns:4fr 7fr;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     border-radius: 20px;
+    box-shadow: rgb(0 0 0 / 40%) 0px 30px 90px;
 }
 
 
@@ -173,7 +174,7 @@ a{
     font-size: 130%;
     margin-left: 5%;
     margin-right: 5%;
-    color: white;
+    color: black;
     line-height: 150%;
 }
 
@@ -196,7 +197,7 @@ a{
     font-size: 300%;
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
-    color: black;
+    color: #08322896;
 }
 
 .carouselWrapper{
@@ -206,9 +207,10 @@ a{
 }
 
 .introVideo{
-    background-image: url(../../Assets/vidbckg.png);
+    background-color: whitesmoke;
     display: grid;
     grid-template-rows: 2fr 9fr;
+
    max-height: 100%;
 }
 
@@ -224,14 +226,21 @@ a{
     margin-top: 2.5%;
 }
 
+.vidWrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 .centerDivVideo{
-    margin-left: 8%;
+    margin-left: 125%;
+    display: flex;
+    justify-content: space-evenly;
     height: 76%;
     width: 55%;
-    display: grid;
     border-radius: 20px;
+    grid-gap: 12em;
 }
+
 
 .introVideoHeader{
     height: 100%;
@@ -243,12 +252,14 @@ a{
     height: 100%;
     width: 100%;
 }
-
 .videoHeaderText{
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
     margin-top: 10%;
+    margin-left:40%;
+    margin-bottom: 5%;
     font-size: 200%;
+    color: #08322896;
 }
 
 .titleVideoHeader{
@@ -266,14 +277,14 @@ video {
 .lastSection{
     display: grid;
     place-items: center;
-    background-color: black;
+    background-color:#CCE6FF;
     max-height: 100%;
     width: 100%;
     display: grid;
 }
 
 .centerDivLast{
-    background-color: black;
+    background-color: transparent;
     height: 88%;
     width: 80%;
     display: grid;

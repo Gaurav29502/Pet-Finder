@@ -13,33 +13,30 @@ export const PetCare = (props) => {
     return (
         <div className="main">
             <nav className="navbarPetcare">
-        <div className="topLogo">
-          <h1 className="pawshunger">Paws Hunger</h1>
-        </div>
-        <div className="menu">
-          <a className="menuItem" href="/">
-            HOME
-          </a>
-          <a className="menuItem" href="#">
-            TRACK
-          </a>
-          <a className="menuItem" href="/donations">
-            DONATIONS
-          </a>
-          <a className="menuItem" href="#">
-            VETS
-          </a>
-          <a className="menuItem" href="/petcare">
-            PETCARE
-          </a>
-          <a className="menuItem" href="/Comments">
-            COMMUNITY
-          </a>
-        </div>
-      </nav>
+                <div className="topLogo">
+                    <h1 className="pawshunger">Paws Hunger</h1>
+                </div>
+                <div className="menu">
+                    <a className="menuItem" href="/">
+                        HOME
+                    </a>
+                    <a className="menuItem" href="/track">
+                        TRACK
+                    </a>
+                    <a className="menuItem" href="/donations">
+                        DONATIONS
+                    </a>
+                    <a className="menuItem" href="/petcare">
+                        PETCARE
+                    </a>
+                    <a className="menuItem" href="/community">
+                        COMMUNITY
+                    </a>
+                </div>
+            </nav>
 
             <div className='cards testy'>
-                <h1 className= 'headerText'>Pet Blogs</h1>
+                <h1 className='headerText'>Pet Blogs</h1>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
                         <ul className='cards__items'>
@@ -55,7 +52,7 @@ export const PetCare = (props) => {
                                 label='Most viewed'
                                 path='https://globalnews.ca/news/8949419/kelowna-dog-rescue-selling-blueberry-bushes-in-fundraiser/'
                             />
-        
+
                             <CardItem
                                 src='images/img-3.jpg'
                                 text='Maxi’s Owner Passed Away—Can You Love and Comfort Her?'
@@ -80,7 +77,7 @@ export const PetCare = (props) => {
             </div>
 
             <div className='cards'>
-            <h1 className='headerTextBlack'>Diet for pets</h1>
+                <h1 className='headerTextBlack'>Diet for pets</h1>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
                         <ul className='cards__items '>
@@ -96,7 +93,7 @@ export const PetCare = (props) => {
                                 label='Most viewed'
                                 path='https://globalnews.ca/news/8949419/kelowna-dog-rescue-selling-blueberry-bushes-in-fundraiser/'
                             />
-        
+
                             <CardItem
                                 src='images/img-3.jpg'
                                 text='Maxi’s Owner Passed Away—Can You Love and Comfort Her?'
@@ -121,7 +118,7 @@ export const PetCare = (props) => {
             </div>
 
             <div className='cards testy'>
-            <h1 className='headerText'>Love for pets</h1>
+                <h1 className='headerText'>Love for pets</h1>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
                         <ul className='cards__items demo'>
@@ -137,7 +134,7 @@ export const PetCare = (props) => {
                                 label='Most viewed'
                                 path='https://globalnews.ca/news/8949419/kelowna-dog-rescue-selling-blueberry-bushes-in-fundraiser/'
                             />
-        
+
                             <CardItem
                                 src='images/img-3.jpg'
                                 text='Maxi’s Owner Passed Away—Can You Love and Comfort Her?'
@@ -164,20 +161,20 @@ export const PetCare = (props) => {
             <div className="footerDiv" style={{ 'height': '10vh' }}>
                 <footer className="footerTeams">
                     <IconContext.Provider value={{ size: "3em" }}>
-                        <div className="shareiconsTeams">
-                            <a className="socialIconsTeams" href="https://m.facebook.com/">
+                        <div className="shareicons">
+                            <a className="socialIcons" href="https://www.facebook.com/pawshunger/">
                                 <FaFacebook className="facebook" />
                             </a>
-                            <a className="socialIcons" href="https://www.instagram.com//">
+                            <a className="socialIcons" href="https://www.instagram.com/pawshunger/?hl=en">
                                 <FaInstagram className="insta" />
                             </a>
-                            <a className="socialIcons" href="https://twitter.com/">
+                            <a className="socialIcons" href="https://twitter.com/pawshunger">
                                 <FaTwitter className="twitter" />
                             </a>
-                            <a className="socialIcons" href="https://www.linkedin.com/company/iete-">
+                            <a className="socialIcons" href="https://www.linkedin.com/company/paws-hunger/about/">
                                 <FaLinkedin className="linkedin" />
                             </a>
-                            <a className="socialIcons" href="mailto: @gmail.com">
+                            <a className="socialIcons" href="mailto:about@pawshunger.com">
                                 <FaMailBulk />
                             </a>
                         </div>

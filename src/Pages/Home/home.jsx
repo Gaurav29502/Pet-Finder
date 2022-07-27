@@ -8,11 +8,13 @@ import bruno from "../../Assets/testimonials/bruno.png";
 import Bumi from "../../Assets/testimonials/Bumi.png";
 import Kaya from "../../Assets/testimonials/Kaya.png";
 import Daisy from "../../Assets/testimonials/Daisy.png";
-import Dorris from  "../../Assets/testimonials/Dorris.png";
+import Dorris from "../../Assets/testimonials/Dorris.png";
 import Mia from "../../Assets/testimonials/Mia.png"
 import Lisa from "../../Assets/testimonials/Lisa.png";
-
+import pug from "../../Assets/pug.gif";
 import introvideo from "../../Assets/introvideo.mp4";
+import vid1 from "../../Assets/vid1.mp4";
+import vid2 from "../../Assets/vid2.mp4";
 import { Carousel } from "react-responsive-carousel";
 import { FaTwitter } from 'react-icons/fa'
 import { FaFacebook } from 'react-icons/fa'
@@ -123,11 +125,22 @@ export const HomePage = (props) => {
             A glimpse of what we do as an organization.
           </h1>
         </div>
-        <div className="centerDivVideo">
-          <video autoPlay loop muted>
-            <source src={introvideo} type="video/mp4" />
-          </video>
+        <div className="vidWrap">
+          <div className="centerDivVideo">
+            <video autoPlay loop muted>
+              <source src={introvideo} type="video/mp4" />
+            </video>
+            <video autoPlay loop muted>
+              <source src={vid1} type="video/mp4" />
+            </video>
+            <video autoPlay loop muted>
+              <source src={vid2} type="video/mp4" />
+            </video>
+          </div>
         </div>
+
+
+
       </div>
       <div className="lastSection">
         <div className="centerDivLast">
@@ -181,26 +194,26 @@ export const HomePage = (props) => {
           <footer className="footerHome">
             <IconContext.Provider value={{ size: "3em" }}>
               <div className="shareicons">
-                <a className="socialIcons" href="#">
+                <a className="socialIcons" href="https://www.facebook.com/pawshunger/">
                   <FaFacebook className="facebook" />
                 </a>
-                <a className="socialIcons"  href="#">
+                <a className="socialIcons" href="https://www.instagram.com/pawshunger/?hl=en">
                   <FaInstagram className="insta" />
                 </a>
-                <a className="socialIcons"  href="#">
+                <a className="socialIcons" href="https://twitter.com/pawshunger">
                   <FaTwitter className="twitter" />
                 </a>
-                <a className="socialIcons" href="#">
+                <a className="socialIcons" href="https://www.linkedin.com/company/paws-hunger/about/">
                   <FaLinkedin className="linkedin" />
                 </a>
-                <a className="socialIcons"  href="#">
+                <a className="socialIcons" href="mailto:about@pawshunger.com">
                   <FaMailBulk />
                 </a>
               </div>
             </IconContext.Provider>
             <p className="footerText">Paws Hunger© 2022 All rights reserved.</p>
           </footer>
-          <KommunicateChat/>
+          <KommunicateChat />
         </div>
       </div>
 
