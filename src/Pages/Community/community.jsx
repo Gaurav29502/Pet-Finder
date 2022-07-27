@@ -1,6 +1,7 @@
 import "./community.css";
 import React, { Component } from 'react';
 import { useState,useEffect } from "react";
+
 import logo from "../../Assets/logo.png";
 import { Carousel } from "react-responsive-carousel";
 import { FaTwitter } from 'react-icons/fa'
@@ -37,7 +38,7 @@ export const Community = (props) => {
         <div className="mainCommunity">
             <nav className="navbarHome">
                 <div className="topLogo">
-                    <h1 className="pawshunger">Paws Hunger</h1>
+                    <img className="phLogoNav" src={logo}></img>
                 </div>
                 <div className="menu">
                     <a className="menuItem" href="/">

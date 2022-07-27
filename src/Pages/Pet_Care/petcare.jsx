@@ -7,6 +7,7 @@ import { FaInstagram } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaMailBulk } from 'react-icons/fa'
 import { IconContext } from "react-icons";
+import logo from "../../Assets/logo.png";
 import './petcare.css'
 
 export const PetCare = (props) => {
@@ -14,7 +15,7 @@ export const PetCare = (props) => {
         <div className="main">
             <nav className="navbarPetcare">
                 <div className="topLogo">
-                    <h1 className="pawshunger">Paws Hunger</h1>
+                    <img className="phLogoNav" src={logo}></img>
                 </div>
                 <div className="menu">
                     <a className="menuItem" href="/">
