@@ -73,7 +73,7 @@
   background-image: url(../../Assets/trial.jpg);
 }
   
-  h1 {
+  .headerText {
     margin: 2%;
     margin-left: 7%;
   }
