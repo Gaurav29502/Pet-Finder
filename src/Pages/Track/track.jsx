@@ -17,6 +17,7 @@ export const Track = (props) => {
     const inputHandler = useRef(null);
 
     const [address, setAddress] = useState([]);
+    var [addressArr, setAddressArr] = useState("")
     const [latitude, setLatitude] = useState('');
     const [longitude, setLongitude] = useState('');
     const [profile, setProfile] = useState([])
@@ -26,17 +27,19 @@ export const Track = (props) => {
     const handleSubmit = (e) => {
         console.log(description)
         console.log(date)
-        axios.get(`http://api.positionstack.com/v1/reverse?access_key=46d11b9e3e0e7bc6e04c0266bb8d4b8b&query=${`${latitude},${longitude}`}`)
+        axios.get(`http://api.positionstack.com/v1/reverse?access_key=46d11b9e3e0e7bc6e04c0266bb8d4b8b&query=19.143591,72.824629`)
             .then((res) => {
                 const resdata = res.data.data
                 resdata.forEach((e) => {
                     const data = address;
-                    data.push(`${e.neighbourhood}, ${e.label}`)
-                    setAddress(data)
-                    console.log(address)
+                    data.push(` ${e.label}`)
+                    var dataArr = data.slice(0,6)
+                    console.log(dataArr)
+                    setAddressArr(dataArr)
+                    console.log(addressArr)
                 })
             })
-        axios.get(`https://ap-south-1.aws.data.mongodb-api.com/app/cfg2022-zkswz/endpoint/addprofile?description=${description}&date=${date}`)
+        axios.get(`https://ap-south-1.aws.data.mongodb-api.com/app/cfg2022-zkswz/endpoint/addprofile?description=${description}&date=${date}&location=${addressArr}`)
         
     }
 
@@ -55,18 +58,19 @@ export const Track = (props) => {
                 console.log(profile)
             })
 
-        axios.get(`http://api.positionstack.com/v1/reverse?access_key=46d11b9e3e0e7bc6e04c0266bb8d4b8b&query=${`${latitude},${longitude}`}`)
+        axios.get(`http://api.positionstack.com/v1/reverse?access_key=46d11b9e3e0e7bc6e04c0266bb8d4b8b&query=19.143591,72.824629`)
             .then((res) => {
                 const resdata = res.data.data
                 resdata.forEach((e) => {
                     const data = address;
-                    data.push(`${e.neighbourhood}, ${e.label}`)
-                    setAddress(data)
-                    console.log(address)
+                    data.push(` ${e.label}`)
+                    var dataArr = data.slice(0,6)
+                    console.log(dataArr)
+                    setAddressArr(dataArr)
                 })
             })
 
-    }, []);
+    }, [setAddressArr,setProfile]);
     //     
     // });
 
@@ -140,12 +144,11 @@ export const Track = (props) => {
                                         </div>
                                         <div className="locations">
                                             <ul>
-                                                <li>Bandra F, MMK College, Mumbai, MH, India</li>
-                                                <li>Bandra F, R D National College Of Arts & Commerce, Mumbai, MH, India</li>
-                                                <li>Bandra F, Shree Prasad House, Mumbai, MH, India</li>
-                                                <li>Bandra F, TSEC College, Mumbai, MH, India</li>
-                                                <li>Bandra F, National College, Mumbai, MH, India</li>
-                                                <li>Bandra F, Kohinoor Hospital, Mumbai, MH, India</li>
+                                                {e.location.map((a) => {
+                                                    return (
+                                                        <li>{a}</li>
+                                                    )
+                                                })}
                                             </ul>
                                         </div>
                                     </div>
