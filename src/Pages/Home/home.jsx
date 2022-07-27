@@ -146,15 +146,47 @@ export const HomePage = (props) => {
         <div className="centerDivLast">
           <div className="leftSide">
             <div className="sponsorContent">
-              <h1 className="sponsorHeaderText">Events near you</h1>
-              <p className="sponsorText">
-                Insert Text Here
-              </p>
+              <h1 className="sponsorHeaderText">Vets near you</h1>
             </div>
           </div>
           <div className="rightSide">
             <div className="sponsorContainer">
+            <div className="sponsor>">
 
+            </div>
+            <div className="sponsor>">
+
+            </div>
+            <div className="sponsor>">
+
+            </div>
+            <div className="sponsor>">
+
+            </div>
+            <div className="sponsor>">
+
+            </div>
+            <div className="sponsor>">
+
+            </div>
+            <div className="sponsor>">
+
+            </div>
+            <div className="sponsor>">
+
+            </div>
+            <div className="sponsor>">
+
+            </div>
+            <div className="sponsor>">
+
+            </div>
+            <div className="sponsor>">
+
+            </div>
+            <div className="sponsor>">
+
+            </div>
             </div>
           </div>
         </div>

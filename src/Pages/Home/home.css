@@ -297,7 +297,10 @@ video {
 }
 
 .sponsorContent{
-    margin-top: -8%;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
 }
 
 .sponsorHeader{
@@ -327,8 +330,8 @@ video {
 
 .sponsorContainer{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-gap: 6px 10px;
     height: 70%;
     width: 90%;
