@@ -37,7 +37,7 @@ export const Community = (props) => {
         <div className="mainCommunity">
             <nav className="navbarHome">
                 <div className="topLogo">
-                    <h1 className="pawshunger">Paws Hunger</h1>
+                <img className="phLogoNav" src={logo}></img>
                 </div>
                 <div className="menu">
                     <a className="menuItem" href="/">

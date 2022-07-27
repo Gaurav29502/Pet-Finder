@@ -116,6 +116,7 @@ export const Donations = (props) => {
                             <img src={ty}></img>
                         </div>
                         <div className="tyRight">
+                            <p className="tyFact">Everytime you donate, a pets life is saved!</p>
                         </div>
                     </div>
                 </div>
