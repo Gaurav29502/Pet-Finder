@@ -176,11 +176,11 @@ export const Track = (props) => {
                                         <div className="locations">
                                     
                                             <ul>
-                                                <li>Dindoshi, Mumbai, MH, India</li>
-                                               <li>Yashodham, Mumbai, MH, India</li>
-                                               <li>Gokuldham, Mumbai, MH, India</li>
-                                               <li>Goregaon, Mumbai, MH, India</li>
-                                               <li>Suchidham, Mumbai, MH, India</li>
+                                                <li>Andheri, Mumbai, MH, India</li>
+                                               <li>JP Nagar, Mumbai, MH, India</li>
+                                               <li>Juhu, Mumbai, MH, India</li>
+                                               <li>Versova, Mumbai, MH, India</li>
+                                               <li>Amboli, Mumbai, MH, India</li>
                                                <li>Oberoi, Mumbai, MH, India</li>
                                             </ul>
                                         </div>
